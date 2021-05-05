@@ -15,8 +15,5 @@ The Math game get some random numbers and operations to put together and create 
 - [ ] Use more complex math operations in the highest levels.
 - [x] Avoid the inaccurate divisions, ex. 98/76.
 
-### Online Example
-
-An online example of the app will be in  https://ogaston.github.io/math-game/
 
 
