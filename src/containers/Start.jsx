@@ -18,18 +18,20 @@ class Start extends React.Component {
         this.props.startPressed();
     }
 
-    render (){
+    render() {
         return (
             <div>
                 <div className="App-brandname">
-                    <i className="fas fa-graduation-cap"></i> 
-                    <br/>    
-                    <h3>Do You Know</h3>     
-                    <h1>Math?</h1>
+                    {/* <i className="fas fa-graduation-cap"></i> */}
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+
+                    <br />
+                    <h3>Are You Ready For A Lot Of</h3>
+                    <h1>Mathhh?</h1>
                 </div>
-                <Input text="Insert your name" onInputChange={this.setNameOfPlayer} />
+                <Input text="Enter Your Name" onInputChange={this.setNameOfPlayer} />
                 <p>
-                    Press to start the game
+
                 </p>
                 <Button isClicked={this.clicked}>Start</Button>
             </div>
